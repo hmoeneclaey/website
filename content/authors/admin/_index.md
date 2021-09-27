@@ -64,6 +64,6 @@ organizations:
 highlight_name: true
 ---
 
-I am intersested in type theory and its homotopical interpretations.
+I am interested in type theory and its homotopical interpretations.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Moenecleay_Eng.pdf" "newtab" >}}CV{{< /staticref >}}.
