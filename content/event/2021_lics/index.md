@@ -1,10 +1,10 @@
 ---
-title: Finitary higher inductive types in the groupoid model
+title: Parametricity and semi-cubical types
 
-event: 3rd joint Göteborg–Stockholm type theory seminar
-event_url: http://logic.math.su.se/seminar/
+event: 36th Annual Symposium on Logic in Computer Science
+event_url: http://easyconferences.eu/lics2021/
 
-location: Chalmers, Göteborg
+location: Online
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -14,11 +14,11 @@ location: Chalmers, Göteborg
 
 summary:
 
-abstract: 
+abstract: We construct a model of type theory enjoying parametricity from an arbitrary one. A type in the new model is a semi-cubical type in the old one, illustrating the correspondence between parametricity and cubes. Our construction works not only for parametricity, but also for similar interpretations of type theory and in fact similar interpretations of any generalized algebraic theory. To be precise we consider a functor forgetting unary operations and equations defining them recursively in a generalized algebraic theory. We show that it has a right adjoint. We use techniques from locally presentable category theory, as well as from quotient inductive-inductive types. 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-12-11T00:00:00Z"
+date: "2021-06-29T00:00:00Z"
 # date_end: "2030-06-16T15:00:00Z"
 all_day: true
 
@@ -42,7 +42,7 @@ links:
  # url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "uploads/slides_Gothenburg_2019.pdf"
+url_slides: "uploads/slide_LICS_2021.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
