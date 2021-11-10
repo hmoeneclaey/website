@@ -4,7 +4,7 @@ title: Parametricity and cubes
 event: Homotopy Type Theory Electronic Seminar Talks
 event_url: https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html
 
-location: Online
+location: HoTTEST
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -12,7 +12,7 @@ location: Online
  # postcode: '94305'
  # country: United States
 
-summary:
+summary: We report on our investigations linking parametricity and cubical structures. Our slogan is that cubical models of type theory are cofreely parametric.
 
 abstract: We report on our investigations linking parametricity and cubical structures. Our slogan is that cubical models of type theory are cofreely parametric. <br/>&nbsp;&nbsp; Using various notions of parametricity and of models of type theory, we will present the following as cofreely parametric. <br/>&nbsp;&nbsp; * Categories with Families (CwF) of semi-cubical types, with Pi-types and a universe.  <br/>&nbsp;&nbsp; * Categories of cubical object, for any kind of cubes.  <br/>&nbsp;&nbsp; * CwF of setoids (here seen as 1-dimensional Kan objects), with a univalent universe of propositions.  <br/> &nbsp;&nbsp;* Clans of Reedy fibrant objects (work in progress).  <br/> &nbsp;&nbsp; * Tribes of Kan cubical objects (work in progress).  <br/> We will introduce a notion called interpretation, used to build these cofree objects.  <br />
 

@@ -4,7 +4,7 @@ title: Finitary higher inductive types in the groupoid model
 event: 3rd joint Göteborg–Stockholm type theory seminar
 event_url: http://logic.math.su.se/seminar/
 
-location: Chalmers, Göteborg
+location: Göteborg–Stockholm seminar
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -12,9 +12,9 @@ location: Chalmers, Göteborg
  # postcode: '94305'
  # country: United States
 
-summary:
+summary: We present a schema for finitary higher inductive types with constructors for paths and surfaces only. This schema is supported by the groupoid model.
 
-abstract: 
+abstract: A higher inductive type of level 1 (a 1-hit) has constructors for points and paths only, whereas a higher inductive type of level 2 (a 2-hit) has constructors for surfaces too. We restrict attention to ﬁnitary higher inductive types and present general schemata for the types of their point, path, and surface constructors. We also derive the elimination and equality rules from the types of constructors for 1-hits and 2-hits. Moreover, we construct a groupoid model for dependent type theory with 2-hits and point out that we obtain a setoid model for dependent type theory with 1-hits by truncating the groupoid model.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

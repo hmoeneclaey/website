@@ -4,7 +4,7 @@ title: Monoids up to coherent homotopy in two-level type theory
 event: Deducteam seminar
 event_url: https://deducteam.gitlabpages.inria.fr/seminars.html
 
-location: Ecole Normale Supérieure, Cachan
+location: Deducteam seminar
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -12,7 +12,7 @@ location: Ecole Normale Supérieure, Cachan
  # postcode: '94305'
  # country: United States
 
-summary:
+summary: We formalize monoids up to coherent homotopy in Agda, using two level type theory.
 
 abstract: When defining a monoid structure on an arbitrary type in HoTT, one should require a multiplication that is not only homotopy-associative, but also has an infinite tower of higher homotopies. For example in dimension two one should have a condition similar to Mac Lane’s pentagon for monoidal categories. We call such a monoid a monoid up to coherent homotopy. <br/>&nbsp;&nbsp; The goal of my internship in Stockholm was to formalize them in Agda. <br/>&nbsp;&nbsp; It is well-known that infinite towers of homotopies are hard to handle in plain HoTT, so we postulate a variant of two-level type theory, with a strict equality and an interval type. Then we adapt the set-theoretical treatment of monoids up to coherent homotopy using operads as presented by Clemens Berger and Ieke Moerdijk. Our main results are <br/>&nbsp;&nbsp; (a) Monoids up to coherent homotopy are invariant under homotopy equivalence <br/>&nbsp;&nbsp; (b) Loop spaces are monoids up to coherent homotopy. <br/>&nbsp;&nbsp; In this talk I will present the classical theory of monoids up to coherent homotopy, and indicates how two-level type theory can be used to formalize it.
 
@@ -40,7 +40,7 @@ links:
  # icon_pack: fab
  # name: Follow
  # url: https://twitter.com/georgecushen
-url_code: ""
+url_code: https://github.com/hmoeneclaey/operads
 url_pdf: ""
 url_slides: "uploads/slides_Deducteam_2019.pdf"
 url_video: ""

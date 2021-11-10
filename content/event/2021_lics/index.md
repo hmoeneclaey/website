@@ -4,7 +4,7 @@ title: Parametricity and semi-cubical types
 event: 36th Annual Symposium on Logic in Computer Science
 event_url: http://easyconferences.eu/lics2021/
 
-location: Online
+location: LICS
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -12,7 +12,7 @@ location: Online
  # postcode: '94305'
  # country: United States
 
-summary:
+summary: We construct a model of type theory enjoying parametricity from an arbitrary one. A type in the new model is a semi-cubical type in the old one, illustrating the correspondence between parametricity and cubes.
 
 abstract: We construct a model of type theory enjoying parametricity from an arbitrary one. A type in the new model is a semi-cubical type in the old one, illustrating the correspondence between parametricity and cubes. <br/> &nbsp;&nbsp; Our construction works not only for parametricity, but also for similar interpretations of type theory and in fact similar interpretations of any generalized algebraic theory. To be precise we consider a functor forgetting unary operations and equations defining them recursively in a generalized algebraic theory. We show that it has a right adjoint. <br/> &nbsp;&nbsp; We use techniques from locally presentable category theory, as well as from quotient inductive-inductive types. 
 

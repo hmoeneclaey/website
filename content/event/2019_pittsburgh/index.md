@@ -4,7 +4,7 @@ title: Toward a cubical type theory univalent by definition
 event: Conference on Homotopy Type Theory
 event_url: https://hott.github.io/HoTT-2019/
 
-location: Carnegie Mellon University, Pittsburgh
+location: HoTT
 # address:
 #  street: 450 Serra Mall
  # city: Stanford
@@ -12,7 +12,7 @@ location: Carnegie Mellon University, Pittsburgh
  # postcode: '94305'
  # country: United States
 
-summary:
+summary: We report on our progress in the construction of a variant of cubical type theory where univalence holds by definition.
 
 abstract: We report on our progress in the construction of a variant of cubical type theory where univalence holds by definition, i.e. an inhabitant of A = B is by definition an equivalence between A and B. We define equivalences as relations satisfying an extra property. We use an interval characterizing equality. So we need to define reduction rules e.g. for the transport along an equivalence of the form (lambda i.M) with i a dimension name and M a type depending on i. Those reductions are defined by induction on the construction of the type M, guided by ideas from parametricity. We pay a particular attention to the case where M is of the form A = B with A and B depending on i.
 
