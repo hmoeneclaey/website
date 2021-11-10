@@ -1,8 +1,8 @@
 ---
-title: Parametricity and semi-cubical types
+title: Parametricity and cubes
 
-event: 36th Annual Symposium on Logic in Computer Science
-event_url: http://easyconferences.eu/lics2021/
+event: Homotopy Type Theory Electronic Seminar Talks
+event_url: https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html
 
 location: Online
 # address:
@@ -14,11 +14,11 @@ location: Online
 
 summary:
 
-abstract: We construct a model of type theory enjoying parametricity from an arbitrary one. A type in the new model is a semi-cubical type in the old one, illustrating the correspondence between parametricity and cubes. <br/> &nbsp;&nbsp; Our construction works not only for parametricity, but also for similar interpretations of type theory and in fact similar interpretations of any generalized algebraic theory. To be precise we consider a functor forgetting unary operations and equations defining them recursively in a generalized algebraic theory. We show that it has a right adjoint. <br/> &nbsp;&nbsp; We use techniques from locally presentable category theory, as well as from quotient inductive-inductive types. 
+abstract: We report on our investigations linking parametricity and cubical structures. Our slogan is that cubical models of type theory are cofreely parametric. <br/>&nbsp;&nbsp; Using various notions of parametricity and of models of type theory, we will present the following as cofreely parametric. <br/>&nbsp;&nbsp; * Categories with Families (CwF) of semi-cubical types, with Pi-types and a universe.  <br/>&nbsp;&nbsp; * Categories of cubical object, for any kind of cubes.  <br/>&nbsp;&nbsp; * CwF of setoids (here seen as 1-dimensional Kan objects), with a univalent universe of propositions.  <br/> &nbsp;&nbsp;* Clans of Reedy fibrant objects (work in progress).  <br/> &nbsp;&nbsp; * Tribes of Kan cubical objects (work in progress).  <br/> We will introduce a notion called interpretation, used to build these cofree objects.  <br />
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-06-29T00:00:00Z"
+date: "2021-10-21T00:00:00Z"
 # date_end: "2030-06-16T15:00:00Z"
 all_day: true
 
@@ -42,8 +42,8 @@ links:
  # url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "uploads/slide_LICS_2021.pdf"
-url_video: ""
+url_slides: "uploads/slides_HoTTEST_2021.pdf"
+url_video: https://www.youtube.com/watch?v=79Ik6KkoZ-w
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
