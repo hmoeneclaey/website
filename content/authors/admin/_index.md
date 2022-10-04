@@ -10,7 +10,7 @@ role: PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Université de Paris
+- name: Université Paris-Cité
 # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -67,3 +67,7 @@ highlight_name: true
 I am interested in type theory and its homotopical interpretations.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Moenecleay_Eng.pdf" "newtab" >}}CV{{< /staticref >}}.
+
+I will defend my PhD on the 21st of October 2022. 
+
+{{< icon name="download" pack="fas" >}} Download the current version of my {{< staticref "uploads/thesis_website.pdf" "newtab" >}}thesis{{< /staticref >}} .
