@@ -6,11 +6,11 @@ title: Hugo Moeneclaey
 superuser: true
 
 # Role/position/tagline
-role: Doctor
+role: Post-doc
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Université Paris Cité
+- name: University of Gothenburg
 # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -67,6 +67,8 @@ highlight_name: true
 I am interested in type theory and its homotopical interpretations.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_Moenecleay_Eng.pdf" "newtab" >}}CV{{< /staticref >}}.
+
+I started a post-doc at the University of Gothenburg in March 2023.
 
 I successfully defended my PhD on the 21st of October 2022. 
 
