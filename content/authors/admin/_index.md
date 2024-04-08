@@ -75,3 +75,5 @@ I successfully defended my PhD on the 21st of October 2022.
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/thesis_website.pdf" "newtab" >}}thesis{{< /staticref >}}.
 
 {{< icon name="download" pack="fas" >}} Download the {{< staticref "uploads/slides_thesis.pdf" "newtab" >}}slides{{< /staticref >}} of the defense.
+
+Contact: hugomo[at]chalmers.se
