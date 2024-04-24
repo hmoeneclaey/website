@@ -41,7 +41,7 @@ links:
  # name: Follow
  # url: https://twitter.com/georgecushen
 url_code: https://github.com/hmoeneclaey/operads
-url_pdf: ""
+url_pdf: "uploads/AgdaOperadReport.pdf"
 url_slides: "uploads/slides_Deducteam_2019.pdf"
 url_video: ""
 

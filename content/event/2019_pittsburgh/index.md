@@ -41,7 +41,7 @@ links:
  # name: Follow
  # url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: ""
+url_pdf: "uploads/AlternativeCubicalTypeTheoryReport.pdf"
 url_slides: "uploads/sildes_Pittsburgh_2019.pdf"
 url_video: ""
 
