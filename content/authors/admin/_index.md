@@ -10,7 +10,7 @@ role: Post-doc
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Gothenburg
+- name: University of Gothenburg and Chalmers University of Technology
 # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
