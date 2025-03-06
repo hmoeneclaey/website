@@ -1,5 +1,5 @@
 ---
-title: "Parametricity and semi-cubical types"
+title: "Cubical models are cofreely parametric"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
