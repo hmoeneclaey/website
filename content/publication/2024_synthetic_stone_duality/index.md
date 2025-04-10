@@ -6,9 +6,10 @@ title: "A foundation for synthetic Stone duality"
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Freek Geerligs
-- Thierry Coquand
 - Felix Cherubini
+- Thierry Coquand
+- Freek Geerligs
+
 
 # Author notes (optional)
 # author_notes:
