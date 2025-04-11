@@ -1,14 +1,14 @@
 ---
-title: "A foundation for synthetic Stone duality"
+title: "Differential geometry of synthetic schemes"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Felix Cherubini
-- Thierry Coquand
-- Freek Geerligs
+- Matthias Hutzler
 - admin
+- David Wärn
 
 
 # Author notes (optional)
@@ -16,11 +16,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2024-12-05T00:00:00Z"
+date: "2025-04-11T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-05T00:00:00Z"
+publishDate: "2025-04-11T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,7 +32,7 @@ publication_types: ["3"]
 publication:
 publication_short: _ArXiv preprint_
 
-abstract: The language of homotopy type theory has proved to be appropriate as an internal language for various higher toposes, for example with Synthetic Algebraic Geometry for the Zariski topos. In this paper we apply such techniques to the higher topos corresponding to the light condensed sets of Dustin Clausen and Peter Scholze. This seems to be an appropriate setting to develop synthetic topology, similar to the work of Martín Escardó. To reason internally about light condensed sets, we use homotopy type theory extended with 4 axioms. Our axioms are strong enough to prove Markov’s principle, LLPO and the negation of WLPO. We also define a type of open propositions, inducing a topology on any type. This leads to a synthetic topological study of (second countable) Stone and compact Hausdorff spaces. Indeed all functions are continuous in the sense that they respect this induced topology, and this topology is as expected for these classes of types. For example, any map from the unit interval to itself is continuous in the usual epsilon-delta sense. We also use the synthetic homotopy theory given by the higher types of homotopy type theory to define and work with cohomology. As an application, we prove Brouwer’s fixed-point theorem internally.
+abstract: Synthetic algebraic geometry uses homotopy type theory extended with three axioms to develop algebraic geometry internal to a higher version of the Zariski topos. In this article we make no essential use of the higher structure and use homotopy type theory only for convenience. We define étale, smooth and unramified maps between schemes in synthetic algebraic geometry using a new synthetic definition. We give the usual characterizations of these classes of maps in terms of injectivity, surjectivity and bijectivity of differentials. We also show that the tangent spaces of smooth schemes are finite free modules. Finally, we show that unramified, étale and smooth schemes can be understood very concretely via the expected local algebraic description.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
