@@ -16,23 +16,23 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2024-12-05T00:00:00Z"
+date: "2025-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-05T00:00:00Z"
+publishDate: "2025-07-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication:
-publication_short: _ArXiv preprint_
+publication_short: _LIPIcs_
 
-abstract: The language of homotopy type theory has proved to be appropriate as an internal language for various higher toposes, for example with Synthetic Algebraic Geometry for the Zariski topos. In this paper we apply such techniques to the higher topos corresponding to the light condensed sets of Dustin Clausen and Peter Scholze. This seems to be an appropriate setting to develop synthetic topology, similar to the work of Martín Escardó. To reason internally about light condensed sets, we use homotopy type theory extended with 4 axioms. Our axioms are strong enough to prove Markov’s principle, LLPO and the negation of WLPO. We also define a type of open propositions, inducing a topology on any type. This leads to a synthetic topological study of (second countable) Stone and compact Hausdorff spaces. Indeed all functions are continuous in the sense that they respect this induced topology, and this topology is as expected for these classes of types. For example, any map from the unit interval to itself is continuous in the usual epsilon-delta sense. We also use the synthetic homotopy theory given by the higher types of homotopy type theory to define and work with cohomology. As an application, we prove Brouwer’s fixed-point theorem internally.
+abstract: The language of homotopy type theory has proved to be an appropriate internal language for various higher toposes, for example for the Zariski topos in Synthetic Algebraic Geometry. This paper aims to do the same for the higher topos of light condensed anima of Dustin Clausen and Peter Scholze. This seems to be an appropriate setting for synthetic topology in the style of Martín Escardó.</br> We use homotopy type theory extended with 4 axioms. We prove Markov’s principle, LLPO and the negation of WLPO. Then we define a type of open propositions, inducing a topology on any type such that any map is continuous. We give a synthetic definition of second countable Stone and compact Hausdorff spaces, and show that their induced topologies are as expected. This means that any map from e.g. the unit interval I to itself is continuous in the usual epsilon-delta sense.</br> With the usual definition of cohomology in homotopy type theory, we show that H1(S, Z) = 0 for S Stone and that H1(X, Z) for X compact Hausdorff can be computed using Čech cohomology. We use this to prove H1(I, Z) = 0 where I is the unit interval and H1(S1,Z) = Z where S1 is the topological circle. As an application, we give a synthetic proof of Brouwer’s fixed-point theorem.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

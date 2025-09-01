@@ -30,7 +30,7 @@ publication_types: ["3"]
 publication:
 publication_short: _ArXiv preprint_
 
-abstract:
+abstract: We work in synthetic algebraic geometry. It is an extension of homotopy type theory by three axioms, which can be interpreted in a higher version of the Zariski topos and therefore gives a novel approach to algebraic geometry where a Zariski sheaf of higher groupoids is represented simply as a type. In this context we give a proof of Châtelet's result that a Severi-Brauer variety with a point is a projective space. We make crucial use of étale sheaves, which can be defined and worked with conveniently in this synthetic approach.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
