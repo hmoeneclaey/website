@@ -12,7 +12,7 @@ location: TYPES
  # postcode: '94305'
  # country: United States
 
-summary: We present our results on the cohomology of Stone and compact Hausdorff spaces in synthetic Stone duality, in particular the the unit interval is acyclic.
+summary: We present our results on the cohomology of Stone and compact Hausdorff spaces in synthetic Stone duality, in particular that the unit interval is acyclic.
 
 abstract: Peter Scholze and Dustin Clausen introduced light condensed sets, defined as sheaves on the site of light profinite sets. They can be used as an alternative to topological spaces. Synthetic Stone duality is an extension of homotopy type theory by four axioms, which was introduced in [Che+24]. In this article, it was proven that H^1(S,Z) = 0 for S a Stone space, that H^1(X,Z) for X compact Hausdorff can be computed using Cech cohomology and that H^1(I,Z) = 0 where I is the unit interval. In this talk we will present the extension of these results to higher cohomology groups with non-constant countably presented abelian groups as coefficients. Those are synthetic analogues of results from Roy Dyckhoff.
 
