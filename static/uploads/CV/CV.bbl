@@ -1,0 +1,66 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CCHM16}
+
+\bibitem[ACKS24]{altenkirch2024internal}
+Thorsten Altenkirch, Yorgo Chamoun, Ambrus Kaposi, and Michael Shulman.
+\newblock Internal parametricity, without an interval.
+\newblock {\em Proceedings of the ACM on Programming Languages},
+  8(POPL):2340--2369, 2024.
+
+\bibitem[Ble24]{blechschmidt2024nullstellensatz}
+Ingo Blechschmidt.
+\newblock A general {N}ullstellensatz for generalised spaces.
+\newblock {\em
+  \url{https://rawgit.com/iblech/internal-methods/master/paper-qcoh.pdf}},
+  2024.
+
+\bibitem[CCHM16]{cohen2016cubical}
+Cyril Cohen, Thierry Coquand, Simon Huber, and Anders M{\"o}rtberg.
+\newblock Cubical type theory: a constructive interpretation of the univalence
+  axiom.
+\newblock {\em arXiv preprint arXiv:1611.02108}, 2016.
+
+\bibitem[DH21]{devalapurkar2021james}
+Sanath Devalapurkar and Peter Haine.
+\newblock On the {J}ames and {H}ilton-{M}ilnor splittings, and the metastable
+  {EHP} sequence.
+\newblock {\em Documenta Mathematica}, 26:1423--1464, 2021.
+
+\bibitem[FEM{\etalchar{+}}14]{freeman2014active}
+Scott Freeman, Sarah~L Eddy, Miles McDonough, Michelle~K Smith, Nnadozie
+  Okoroafor, Hannah Jordt, and Mary~Pat Wenderoth.
+\newblock Active learning increases student performance in science,
+  engineering, and mathematics.
+\newblock {\em Proceedings of the national academy of sciences},
+  111(23):8410--8415, 2014.
+
+\bibitem[KK20]{kaposi2020signatures}
+Ambrus Kaposi and Andr{\'a}s Kov{\'a}cs.
+\newblock Signatures and induction principles for higher inductive-inductive
+  types.
+\newblock {\em Logical Methods in Computer Science}, 16, 2020.
+
+\bibitem[Sim96]{simpson1996algebraic}
+Carlos Simpson.
+\newblock Algebraic (geometric) $ n $-stacks.
+\newblock {\em arXiv preprint alg-geom/9609014}, 1996.
+
+\bibitem[TTS21]{tabareau2021marriage}
+Nicolas Tabareau, {\'E}ric Tanter, and Matthieu Sozeau.
+\newblock The marriage of univalence and parametricity.
+\newblock {\em Journal of the ACM}, 68(1):1--44, 2021.
+
+\bibitem[{Uni}13]{hottbook}
+The {Univalent Foundations Program}.
+\newblock {\em Homotopy Type Theory: Univalent Foundations of Mathematics}.
+\newblock \url{https://homotopytypetheory.org/book}, Institute for Advanced
+  Study, 2013.
+
+\bibitem[VMA19]{vezzosi2019cubical}
+Andrea Vezzosi, Anders M{\"o}rtberg, and Andreas Abel.
+\newblock Cubical {A}gda: a dependently typed programming language with
+  univalence and higher inductive types.
+\newblock {\em Proceedings of the ACM on Programming Languages}, 3(ICFP):1--29,
+  2019.
+
+\end{thebibliography}

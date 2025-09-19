@@ -66,12 +66,8 @@ highlight_name: true
 
 I am interested in type theory and its homotopical interpretations. At the moment I am mainly working on [synthetic homotopy theory](https://homotopytypetheory.org/book/) and [synthetic algebraic geometry](https://github.com/felixwellen/synthetic-zariski/blob/main/README.md).
 
-I started a post-doc at the University of Gothenburg in March 2023.
+I successfully defended my PhD on the 21st of October 2022. I started a post-doc at the University of Gothenburg in March 2023.
 
-{{< icon name="download" pack="fas" >}} Download my (outdated) {{< staticref "uploads/CV_Moenecleay_Eng.pdf" "newtab" >}}CV{{< /staticref >}}.
-
-I successfully defended my PhD on the 21st of October 2022. 
-
-{{< icon name="download" pack="fas" >}} Download the {{< staticref "uploads/slides_thesis.pdf" "newtab" >}}slides{{< /staticref >}} of the defense.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
 
 Contact: hugomo[at]chalmers.se

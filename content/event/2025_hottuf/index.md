@@ -1,0 +1,65 @@
+---
+title: Châtelet's Theorem in synthetic algebraic geometry
+
+event: Workshop on Homotopy Type Theory / Univalent Foundations
+event_url: https://hott-uf.github.io/2025/
+
+location: HoTT-UF
+# address:
+#  street: 450 Serra Mall
+ # city: Stanford
+ # region: CA
+ # postcode: '94305'
+ # country: United States
+
+summary: We explain our formulation and proof of Châtelet’s result on Severi-Brauer in the setting of synthetic algebraic geometry.
+
+abstract: The goal of this talk is to present a formulation and proof of Châtelet’s Theorem over an arbitrary commutative ring in the setting of synthetic algebraic geometry, using the results already proved about projective space, in particular the fact that any automorphism of the projective space is given by a homography.</br> We make essential use of basic results about HoTT and modalities. Indeed, in this context, étale sheafification can be described as a modality. The formulation of Châtelet’s result then becomes that given an inhabited étale sheaf X, the proposition 'X is a projective space' is itself an étale sheaf.
+
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: "2025-04-16T00:00:00Z"
+# date_end: "2030-06-16T15:00:00Z"
+all_day: true
+
+# Schedule page publish date (NOT talk date).
+publishDate: "2017-01-01T00:00:00Z"
+
+authors: []
+tags: []
+
+# Is this a featured talk? (true/false)
+featured: false
+
+# image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
+
+links:
+#- icon: twitter
+ # icon_pack: fab
+ # name: Follow
+ # url: https://twitter.com/georgecushen
+url_code: ""
+url_pdf: "uploads/25-hottuf-abstract.pdf"
+url_slides: "uploads/25-hottuf-slides.pdf"
+url_video: ""
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+# slides: example
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+# projects:
+# - example
+---
+
+

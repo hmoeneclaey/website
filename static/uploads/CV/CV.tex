@@ -1,0 +1,315 @@
+\documentclass{article}
+
+%\usepackage[utf8x]{inputenc}
+%\usepackage{t1enc}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{tipa}
+\usepackage{mathtools}
+%\usepackage[francais]{babel}
+
+%\renewcommand{\_}{\rule{.6em}{.5pt}\hspace{0.023cm}}
+\DeclareMathSymbol{:}{\mathbin}{operators}{"3A}
+
+\newcommand{\shape}{\textrm{\textesh}}
+\newcommand{\propTrunc}[1]{\lVert #1\rVert}
+
+\begin{document}
+
+\title{Curriculum Vitae for my Application as Assistant Professor at Stockholm University}
+\author{Hugo Moeneclaey}
+\date{\today}
+
+\newcommand{\cventry}[4]{\item[#1] \textbf{#2}. \emph{#3}.
+
+{#4}}
+
+\maketitle
+
+\section*{Contact information}
+\begin{itemize}
+\item[Name:] Hugo Moeneclaey
+\item[Birth:] 1994-04-29
+\item[Address:] V\"aderkvernsgatan 13C, G\"oteborg 41704, Sweden.
+\item[Phone:] \href{tel:+33621275886}{+33621275886}
+\item[Email:] \href{mailto:hugomo@chalmers.se}{hugomo@chalmers.se}
+\item[Website:] \url{https://www.hugomoeneclaey.com}
+\end{itemize}
+
+
+\section{Summary of qualifications}
+
+
+\subsection{Employment history}
+\begin{itemize}
+\cventry{2023-26}{Postdoc}{Gothenburg University and Chalmers University of Technology}{}
+\cventry{2019-22}{PhD student}{Universit\'e Paris Cit\'e}{}
+\cventry{2014-19}{Fonctionnaire stagiaire}{\'Ecole Normale Sup\'erieure de Cachan}{
+I was employed by the French state during my studies, because I passed a competitive exam to join the \'Ecole Normale Sup\'erieure de Cachan.}
+\end{itemize}
+
+
+\subsection{Degree and completed courses and programmes}
+\begin{itemize}
+\cventry{2022}{PhD in computer science}{Universit\'e Paris Cit\'e, IRIF}{
+Title: \emph{Cubical models are cofreely parametric}.
+
+Supervisor: Hugo Herbelin.
+
+Reviewers: Thorsten Altenkirch and Steve Awodey. 
+
+Examiners: Peter Dybjer, Eric Finster, Patricia Johann, Ambrus Kaposi and Muriel Livernet (chairwoman).
+}
+\cventry{2018}{Master in mathematics}{Universit\'e Pierre et Marie Curie}{
+From \emph{Master de Math\'ematique Fondamentale de Jussieu} (Master in Pure Mathematics of Jussieu). Focused on homotopy theory. 
+
+Completed courses: \emph{Algebraic geometry I}; \emph{Algebra + homotopy = operads}; \emph{Homological algebra and algebraic topology}; \emph{Introduction to homotopy}. 
+
+Master thesis: \emph{Quasi-categories and complete segal spaces}, supervised by Georges Maltsiniotis.
+}
+\cventry{2017}{Master in computer science}{Universit\'e Paris-Saclay}{
+From \emph{Master Parisien de Recherche en Informatique} (Parisian Master of Research in Computer Science). Focused on proof theory, proof assistants, complexity theory and category theory. %Also followed classes on set theory and model theory from the master \emph{Logique Math\'ematique et Fondement de l'Informatique} (Mathematical Logic and Foundations of Computer Science), as well as some math class. 
+
+Completed courses: \emph{Linear logic and logical paradigms for calculus}; \emph{Semantics of programs: domains, categories and games}; \emph{Foundations of proof systems}; \emph{Proof assistants}; \emph{Randomised complexity}; \emph{Logic, descriptive complexity and databasis theory}; \emph{Algebraic topology}; \emph{Functional analysis}; \emph{Machine learning}; \emph{Categories and lambda calculus}; \emph{Advanced complexity}; \emph{Computational content of classical logic}; \emph{Introduction to verification}; \emph{Classical tools for the proof-program correspondence}; \emph{Cryptographic protocols: formal and computational proofs}.
+
+Master thesis: \emph{Expansion proofs for arithmetic}, supervised by Stefan Hetzl.
+}
+\cventry{2015}{Bachelor in mathematics}{Universit\'e Paris-Diderot}{}
+\cventry{2015}{Bachelor in computer science}{Universit\'e Paris-Diderot}{}
+\end{itemize}
+
+%\subsection{Leave of absence, including parental leave}
+%I had one year of unpaid leave from my fonctionnaire-stagiaire position in the academic year 2017-18. I used this time to do my master in mathematics.
+
+\subsection{Internships}
+
+\begin{itemize}
+\cventry{2019}{Toward a cubical type theory with univalence by definition}{Supervised by Hugo Herbelin, 6 months at Universit\'e Paris-Diderot}{}
+\cventry{2019}{Higher monoids in two-level type theory}{Supervised by Peter LeFanu Lumsdaine, 6 months at Stockholm University}{}
+\cventry{2017}{Expansion proofs for arithmetic}{Supervised by Stefan Hetzl, 6 months at Technische Universität Wien}{}
+\cventry{2016}{Finitary higher inductive types in the setoid model}{Supervised by Peter Dybjer, 3 months at Chalmers University of Technology}{}
+\end{itemize}
+
+\section{Scientific expertise}
+
+\subsection{Research activities and findings}
+
+Since 2016, my research focus on type theory and its homotopical interpretations, with the aim of developing and promoting homotopy type theory and its variants. 
+
+Let me give some context. The defining feature of homotopy type theory is the univalence axiom, which postulates that isomorphic objects are equal. While this has been used as a heuristic by mathematicians for a long time, making it formal requires a deep rethinking of the concept of equality. Indeed objects can be isomorphic in more than on way, for example negation is a non-trivial automorphism of the booleans. So if isomorphisms are to be the same as equality, we need objects to be potentially equal in more than one way. This means we can consider equalities between equalities, and so on. The first precise formulation of the univalence axiom dates from 2009, and was done inside Martin-L\"of type theory. 
+
+Homotopy type theory has proved to be a versatile tools, leading to interesting developments in type theory, constructive mathematics, computer-assisted proofs as well as synthetic mathematics. My research promote this system as a tool making mathematical reasoning easier, giving an answer to the growing concerns around the increasing complexity of mathematics. I participated to the development of homotopy type theory as language by proposing the first general definition of quotients (called higher inductive types in this context), together with Peter Dybjer. I deepened the understanding of the semantics of homotopy type theory by defending the thesis that cubical models (a well-studied class of models) are in fact cofreely parametric. I also used homotopy type theory to develop synthetic algebraic geometry and synthetic topology, together with many members of the Gothenburg logic and types unit, demonstrating the applicability of the language.
+
+My first relevant research work was a collaboration with Peter Dybjer on higher inductive types (HITs). A higher inductive type $H$ is a type freely generated by not only inhabitants of $H$ (like regular inductive types) but also by assuming equalities in $H$ (as well as equalities between equalities in $H$, and so on). So using HITs allows to define quotients. This is a delicate problem because of the unusual behaviour of equalities in homotopy type theory.
+
+We designed a schema defining a restricted class of higher inductive types (HITs) and proved that they exist in the groupoid model of type theory. Despite specific examples of HITs being known and used for some time \cite{hottbook}, this work was the first attempt to give a general definition. While it was restricted to a subclass of HITs (those with finitary constructors and equalities iterated at most twice), it was pioneering work and proved influential on the development of HITs, indeed it has 31 citations on google scholar at the time of writing. It was latter vastly extended by Ambrus Kaposi and Andr\'as Kov\'acs \cite{kaposi2020signatures}.
+
+My PhD thesis was supervised by Hugo Herbelin. The general aim was to deepen the understanding of cubical type theory \cite{cohen2016cubical}, which is a variant of homotopy type theory with a better computational behaviour, and therefore a better implementation as a proof assistant (see cubical Agda \cite{vezzosi2019cubical}). It is justified through the use of the so-called cubical models of type theory. My PhD was about connecting cubical and parametric models. A model of type theory is called parametric if any type $\vdash X$ comes with a relation: 
+\begin{eqnarray}
+X,X &\vdash& X_*\nonumber
+\end{eqnarray}
+in a way that is compatible with terms and dependencies. The key intuition is that starting from $\vdash X$ and iterating this parametricity relation, we get:
+\begin{eqnarray}
+X,X &\vdash& X_*\nonumber\\
+x_{00},x_{01},x_{10},x_{11}:X,X_*(x_{00},x_{01}),X_*(x_{10},x_{11}),X_*(x_{00},x_{10}),X_*(x_{10},x_{11}) &\vdash& X_{**}\nonumber
+\end{eqnarray}
+and so on, with increasingly complicated contexts. We see that $X_{**}$ depends on four points and fours relations drawing a square, so that $X_{**}$ can be seen as the type of filler for squares. The key intuition is that $X_{***}$ should be a type of filler for cubes, and so on, so that the whole tower $X,X_*,X_{**},\ldots$ forms a cubical types. The goal of my PhD thesis was to make formal this intuitive link between parametric and cubical models.
+
+I defended the thesis that cubical models of type theory are cofreely parametric. I gave two frameworks where cofree objects can be build, both relying on categorical techniques and broadly applicable, even to situation having nothing to do with parametricity:
+\begin{enumerate}
+\item The first one was seeing models of type theory as algebras for a generalised algebraic theory (GATs). I defined unary extensions of GATs, proved that their forgetful functors have right adjoints building cofree objects, and that parametricity is such a unary extension. 
+\item The second one was seeing models of type theory as objects in a monoidal category. Then notions of parametricity are monoids, parametric models are modules and cofree modules are easy to construct. Using this framework, I proved that clans of Reedy fibrant cubical types are cofreely parametric for the appropriate notion of parametricity.
+\end{enumerate}
+There has been some works related to this idea of linking parametricity, cubes and univalence, including \cite{tabareau2021marriage} which proved that univalence can be seen as a variant of parametricity, as well as \cite{altenkirch2024internal} which is a step toward higher observational type theory, intended as a next-generation implementation of homotopy type theory. There is an early proof assistant prototype  called \href{https://github.com/gwaithimirdain/narya}{Narya}.
+
+After my PhD, I wanted to focus on applying homotopy type theory, so I joined the Gothenburg logic and types team for a postdoc and started playing an active role in the development of synthetic algebraic geometry. This project is based on work from Ingo Blechschmidt \cite{blechschmidt2024nullstellensatz}. The key idea is to extend homotopy type theory with three axioms, including one assuming a local base ring, and then do algebraic geometry over this ring. These axioms should be interpreted in the higher topos of Zariski sheaves, although the details are still work in progress. There is also a key variant called synthetic Stone duality, which allows to do synthetic topology. Please see the research program for a more thorough mathematical introduction to the subject. 
+
+This project has been getting a lot of attention in the past few years, with the yearly workshop going from 13 participants in 2023 to 25 in 2024. A notable organisational feature is that we encourage everyone to put all their related work (including notes and drafts) online at \url{https://github.com/felixwellen/synthetic-zariski}, where it can be accessed freely by anyone. I like this approach, as I think it helps getting people on board.
+
+I have made many contributions to this project, I will now summarize the most notable ones. I have one accepted paper on synthetic Stone duality (with Felix Cherubini, Thierry Coquand and Freek Gerlings). It presents a variant of synthetic algebraic geometry geared toward doing synthetic topology. It satisfies some classical principles like the axiom of dependent choice and Markov's principle, making it convenient for analysis. Moreover we showed that all maps are continuous in the sense that we have a classifying type for opens. This implies that all maps from e.g. the unit interval to itself are continuous in the usual $\epsilon$-$\delta$ sense. We proved that cohomology of compact Hausdorff spaces can be computed using \v{C}ech cohomology, and used this to prove that $\shape\, \mathbb{S}^1 = S^1$ where $\shape$ is the localisation at the unit interval, $\mathbb{S}^1$ is the type $\{x,y:\mathbb{R}\ |\ x^2+y^2=1\}$ and $S^1$ is the higher inductive circle. This implies Brouwer's fixed-point theorem.
+
+I have a preprint on the synthetic differential geometry of schemes (with Felix Cherubini, Matthias Hutzler and David W\"arn). Its key feature is that we give novel definitions of \'etaleness and smoothness, which are defined for any type and have surprisingly good proprieties. A striking example is that smoothness is stable under image. We proved that these definitions agree with the usual ones for schemes.
+
+I have a preprint on a synthetic version of Ch\^atelet's theorem (with Thierry Coquand), which states that if a scheme is a projective space over some separable extension of the base ring and it has a point, then it is a projective space over the base ring. We make extensive use of étale sheafification, which can be defined directly as a lex modality internal to homotopy type theory, allowing for elegant new formulations and proofs. For example, the condition that a scheme $X$ is a projective space over a separable extension of the base ring can be reformulated into simply asking that the étale sheafification of $\propTrunc{X=\mathbb{P}^n}$ holds. In this situation, Ch\^atelet's theorem states that $\propTrunc{X}$ implies $\propTrunc{X=\mathbb{P}^n}$.
+
+%I have less advanced ongoing work on various synthetic topics, including on higher algebraic stacks, $\mathbb{A}^1$-homotopy theory as well as cohomology and homotopy of compact Hausdorff spaces. 
+
+I have also been working on building models for the axioms of synthetic algebraic geometry and Stone duality (with Thierry Coquand, Jonas H\"ofer and Christian Sattler). This work is near completion, and proceeds in two steps: first we build a presheaf model and then we localise at a sheafification lex modality, internally to homotopy type theory.
+
+%\subsection{Research grants}
+
+
+\subsection{Publications}
+
+\subsubsection{Peer-reviewed articles}
+\begin{itemize}
+\cventry{2024}{\href{https://www.hugomoeneclaey.com/publication/2024_synthetic_stone_duality/2024_synthetic_stone_duality.pdf}{A foundation for synthetic Stone duality}}{Joint work with Felix Cherubini, Thierry Coquand and Freek Geerligs. Accepted in TYPES post-proceedings, 17 pages}{}
+\cventry{2021}{\href{https://www.hugomoeneclaey.com/publication/2021_parametricity_semi_cubes/2021_parametricity_semi_cubes.pdf}{Parametricity and semi-cubical types}}{Published in Symposium on Logic In Computer Science, 11 pages}{}
+\cventry{2018}{\href{https://www.hugomoeneclaey.com/publication/2017_finitary_hits/2017_finitary_hits.pdf}{Finitary higher inductive types in the groupoid model}}{Joint work with Peter Dybjer. Published in Electronic Notes in Theoretical Computer Science, 16 pages}{}
+\end{itemize}
+
+\subsubsection{Preprints}
+\begin{itemize}
+\cventry{2025}{\href{https://www.hugomoeneclaey.com/publication/2025_chatelet/2025_chatelet.pdf}{Ch\^atelet’s theorem in synthetic algebraic geometry}}{Joint work with Thierry Coquand. ArXiv preprint, 12 pages}{}
+\cventry{2025}{\href{https://www.hugomoeneclaey.com/publication/2025_differential/2025_differential.pdf}{Differential geometry of synthetic schemes}}{Joint work with Felix Cherubini, Matthias Hutzler and David W\"arn. ArXiv preprint, 24 pages}{}
+\cventry{2022}{\href{https://www.hugomoeneclaey.com/publication/2022_parametricity_monoids/2022_parametricity_monoids.pdf}{Notions of parametricity as monoidal models for type theory}}{ArXiv preprint, 47 pages}{}
+\end{itemize}
+
+\subsubsection{Other academic works}
+\begin{itemize}
+\cventry{2022}{\href{https://www.hugomoeneclaey.com/publication/2022_cubical_models_cofree/2022_cubical_models_cofree.pdf}{Cubical models are cofreely parametric}}{PhD Thesis, 136 pages}{}
+\cventry{2019}{\href{https://www.hugomoeneclaey.com/publication/2019_cubical/2019_cubical.pdf}{Toward a cubical type theory univalent by definition}}{Internship report, 39 pages}{}
+\cventry{2019}{\href{https://www.hugomoeneclaey.com/publication/2019_operads/2019_operads.pdf}{Monoids up to coherent homotopy in two-level type theory}}{Internship report, 40 pages}{}
+\cventry{2018}{\href{https://www.hugomoeneclaey.com/publication/2018_segal_spaces/2018_segal_spaces.pdf}{Quasi-categories and complete Segal spaces}}{Master thesis, 36 pages}{}
+\cventry{2017}{\href{https://www.hugomoeneclaey.com/publication/2017_expansion_proofs/2017_expansion_proofs.pdf}{Expansion proofs for arithmetic}}{Internship report, 44 pages}{}
+\cventry{2016}{\href{https://www.hugomoeneclaey.com/publication/2016_finitary_hits/2016_finitary_hits.pdf}{A schema for higher inductive types of level one and its interpretation}}{Internship report, 37 pages}{}
+\end{itemize}
+
+
+\subsection{Talks}
+
+Here is a list of the conferences where I have contributed talks. I have indicated the speaker by a * when it was not me.
+\begin{itemize}
+\cventry{2025}{\href{https://www.cirm-math.fr/Schedule/screen_display.php?id_renc=3377}{CIRM}}{From synthetic Stone duality to synthetic algebraic topology}{}
+\cventry{2025}{\href{https://msp.cis.strath.ac.uk/types2025/accepted.html}{TYPES}}{Cohomology in synthetic Stone duality (with Thierry Coquand, Felix Cherubini, Freek Geerligs)}{}
+\cventry{2025}{\href{https://hott-uf.github.io/2025/}{HoTT/UF}}{Ch\^atelet's theorem in synthetic algebraic geometry (with Thierry Coquand)}{}
+\cventry{2024}{\href{https://easychair.org/smart-program/TYPES2024/}{TYPES}}{Synthetic Stone duality (with Felix Cherubini, Freek Geerligs$^*$ and Thierry Coquand)}{}
+\cventry{2024}{\href{https://hott-uf.github.io/2024/}{HoTT/UF}}{Differential geometry of schemes in synthetic algebraic geometry (with Felix Cherubini, Matthias Hutzler and David W\"arn)}{}
+\cventry{2022}{\href{https://types22.inria.fr/programme/}{TYPES}}{Cubical models are cofreely parametric}{}
+\cventry{2021}{\href{https://easyconferences.eu/lics2021/accepted-papers/}{LICS}}{Parametricity and semi-cubical Types}{}
+\cventry{2020}{\href{https://hott-uf.github.io/2020/}{HoTT/UF}}{Investigations into syntactic iterated parametricity and cubical type theory (with Hugo Herbelin$^*$)}{}
+\cventry{2019}{\href{https://hott.github.io/HoTT-2019//programme/}{HoTT}}{Toward a cubical type theory with univalence by definition}{}
+\cventry{2017}{\href{https://coalg.org/mfps-calco2017/accepted-mfps.html}{MFPS}}{Finitary higher inductive types in the groupoid model (with Peter Dybjer)}{}
+\end{itemize}
+
+\subsection{Reviews}
+
+%Editors are impressed by how thorough my reviews are.
+
+\begin{itemize}
+\cventry{2020-25}{Logic in Computer Science (LICS)}{3 reviews}{}
+\cventry{2024}{European Symposium on Programming (ESOP)}{1 review}{} 
+\cventry{2024}{Mathematical Structures in Computer Science (MSCS)}{1 review}{}
+\end{itemize}
+
+
+\section{Teaching expertise}
+
+\subsection{Reflections on my own teaching}
+
+I favour active learning from the students, trying to avoid one-way class in favour of a more discussion-oriented style. Ideally students should be prepare by reading the course material at home, so we can focus on interaction. This is desirable because it makes students learn better \cite{freeman2014active}. Moreover, I think it also helps them build confidence, which is an often underrated goal of teaching. To achieve this I try getting a good working relationship with the students, so that they get in a cooperative mindset where we are all learners, rather than the adversarial grader/gradee mindset that is sadly too common.
+
+Of course the methods I use depend on the available resources: amount of influence on the teaching material, time allocated inside and outside the classrooms, number of students, their age, and so on.
+
+I avoid slides classes as they tend to be one-way, I prefer either home reading assignments or blackboard classes. I always put an emphasis on exercises. When possible, I tend to favour one of the following three ways to present exercises, depending on the situation:
+\begin{enumerate}
+\item I have students correcting easy exercises on the board, to check they are not lost and help them build confidence.
+\item I have students do exercises in groups of 2 to 4, and go from group to group to check how they are doing. This enable discussions with small groups of students, even if there is a lot of them in total.
+\item I give home assignments that I review on my own, preferably not graded. I think grading incentivise students to hide their flaws, which is counter-productive. Ideally it should be followed by an individual debrief, which could range from a short "good work, keep going" to a discussion on the difficulties they are facing with the class.
+\end{enumerate}
+
+I also think humour is a very powerful tool to achieve discussion-style classes, in particular jokes where I admit my flaws, as they make the students more comfortable admitting theirs. It is also important to get time to speak to students individually or in small groups.
+
+Another trick I use to make classes more interactive is including problems from the real world in my teaching. For example, when I was teaching a class on differential equations to biologist during Covid, I added an exercise on the $R_0$ that we heard so much about online, explaining why the question of whether or not $R_0\leq 1$ came back so often. On a funnier note, I once had an exercise where we used first order logic to analyse some Scarfolk Council flyers, showing that most information on them was actually redundant. I even photoshopped the minimal logically equivalent versions of the flyers!
+
+%This worked with varying degree of success, the younger and more numerous the students are, the harder it is to succeed. 
+
+A problem I encountered during my lectures on synthetic homotopy theory is that I was expecting my enthusiasm for the presented results to be contagious, but this did not work reliably with students. To counter this I think I should have designed the course as a story by foreshadowing the main results early on. 
+
+ %In my experience adding a little 5 minutes digression is definitely worth it as it makes student more confident to 
+
+\subsection{Teaching experience}
+I list my teaching at Chalmers University of Technology, during my postdoc. The total amount of hours includes preparation and grading.
+\begin{itemize}
+\cventry{2023-25}{Logic in computer science}{Teaching assistant, 180 hours total, 1\textsuperscript{st} year master students}{
+I supervised exercise sessions about first-order logic for computer science students.
+}
+\cventry{2023-25}{Computer scientist in society}{Teaching assistant, 90 hours total, 2\textsuperscript{nd} year master students}{
+I taught students how to read and write scientific documents, through various workshops and presentations.
+}
+\cventry{2023-25}{Databasis}{Teaching assistant, 280 hours total, 3\textsuperscript{rd} year bachelor students}{
+I supervised lab sessions, teaching students how to design and implement a databasis.
+}
+\end{itemize}
+I list my teaching at Universit\'e Paris Cit\'e, during my PhD.
+\begin{itemize}
+\cventry{2020}{Introduction to homotopy type theory}{Lecturer, 24 lectures, 2\textsuperscript{nd} year master students}{
+I was a co-lecturer with Hugo Herbelin in 2020, and I was given complete freedom to design 12 lectures introducing synthetic homotopy theory to master students. For more information see the course development section.
+}
+\cventry{2020}{Differential equations for biologists}{Teaching assistant, 6 exercise sessions, 2\textsuperscript{nd} year bachelor students}{
+I supervised exercise sessions on linear differential equations for biology students. The students regularly challenged the applicability of what was being taught, which I found stimulating.
+}
+\cventry{2019-21}{Databasis}{Teaching assistant, around 12 sessions per year, 3\textsuperscript{rd} year bachelor students}{
+I supervised lab sessions on how to use SQL, and exercise sessions on designing databases.
+}
+\end{itemize}
+
+\subsection{Experience as a supervisor}
+\begin{itemize}
+\cventry{2024}{Tim Lichtnau}{Master thesis}{
+Title: \emph{Higher algebraic stacks in synthetic algebraic geometry}.
+
+Tim worked on adapting Carlos Simpson's work on higher algebraic stacks \cite{simpson1996algebraic} to synthetic algebraic geometry, using the fact that higher stacks are remarkably convenient to work with synthetically. This thesis was tragically interrupted by Tim's passing on the 26\textsuperscript{th} of December 2024.
+}
+\cventry{2024}{Chonghan Li}{Master thesis}{
+Title: \emph{James and Hilton–Milnor splittings in homotopy type theory}.
+
+Chonghan worked on adapting \cite{devalapurkar2021james} to homotopy type theory, relying heavily on homotopy colimits. It was put on hold for personal reasons.
+}
+\cventry{2021}{Louis Gervais}{Bachelor internship}{
+Title: \emph{Learning Coq through synthetic homotopy theory}.
+
+I helped Louis with learning Coq. He formalised sections 3 to 6 of my lecture notes on synthetic homotopy theory. He latter managed to join the prestigious \'Ecole Normale Sup\'erieure de Lyon, on my advice.}
+\cventry{2020-21}{Math mini-projects}{Supervision, 7 projects total, 1\textsuperscript{st} year bachelor students}{}
+\end{itemize}
+
+%\subsection{Training in teaching and learning in higher education}
+
+\subsection{Course development and course administration}
+
+In 2020, I was offered to give a 24 lectures introduction to homotopy type theory to master students, in collaboration with Hugo Herbelin. I was in charge of the part on synthetic homotopy theory, with more or less complete freedom to design the course. Existing introductions to synthetic homotopy usually stopped at computing $\pi_1(S^1)=\mathbb{Z}$, which I do not find to be a very exciting result. To address this defect I decided to write my own lecture notes. I used the universe and Grothendieck correspondence to build classifying spaces for various structures (coverings, fiber bundles, principal bundles). We even got to prove Schreier theory for $\infty$-groups!
+
+Since working synthetically requires reasoning in an alternate mathematical system, I thought students would need to get a lot of hands on experience. So I designed many exercises, including simple ones that were corrected by students during lectures, and more advanced homework that I reviewed outside class, without grading. Students told me that this system was super helpful to learn. I also encouraged them to get practice with a proof assistant, although not many did due to lack of time.
+
+I wrote all teaching material for this class. This includes lectures notes (69 pages), 3 exercise sheets, 2 homework assignments and the final exam. It can be accessed at \url{https://github.com/herbelin/LMFI-HoTT/tree/master/Synthetic_Homotopy_Theory}.
+
+%\subsection{Teaching awards and honours}
+
+%\subsection{Other activities related to teaching}
+
+\section{Event organisation}
+
+%\subsection{Assignments and experience}
+\begin{itemize}
+\cventry{2024}{Workshop on synthetic algebraic geometry}{Chalmers University of Technology}{
+I co-organised the workshop with Felix Cherubini. Around 25 participants joined, mostly from the universities of Gothenburg and Augsburg. For more information, including video recordings, check \url{https://felix-cherubini.de/sag-meeting-4.html}.
+}
+\cventry{2024}{Logic and types unit retreat}{Chalmers University of Technology}{
+I co-organised the retreat. Around 20 attendants. I participated to both the logistics and scientific program.
+}
+\cventry{2024}{Division retreat}{Chalmers University of Technology}{
+I co-organised the retreat. Around 40 attendants. I participated to the scientific program.
+}
+\cventry{2024}{Tim Lichtnau's visit}{Chalmers University of Technology}{
+During my supervision of Tim Lichtnau's master thesis, I arranged his six-months long stay at Chalmers.
+}
+\end{itemize}
+
+
+%\subsection{Management training}
+
+%\subsection{Assignments related to research and educational policy, etc.}
+
+%\section{Community interaction}
+%\subsection{Interaction with the community}
+%\subsection{Information about research and development}
+
+
+
+
+
+\bibliographystyle{alpha}
+\bibliography{biblio}
+
+\end{document}
